@@ -66,10 +66,12 @@ Start by mapping a key (side key or keypad) to the Reg Editor action using the m
 
 - [Up] Move editor to next register
 - [Down] Move to previous register
-- [1] Change AGC Mode (A3, F3, F2, F1, F0, F7, F6, F5, F4); F2, F1 are good choices for airband
+- [1] Change RF Gain Control (AGC 3, FGC 3/2/1/0/7/6/5/4); FGC 2 is a good choice for airband. If AM Fix is on, use AGC 3 (default). Turn AM Fix off if using FGC.
 - [2] Decrease value of current register's setting by 1
 - [3] Increase value of current register's setting by 1
 - [EXIT] Return to main
+
+AGC = Auto Gain Control. FGC = Fixed Gain Control (a manual mode, user selects parameters for fine tuning AM signals)
 
 **Scan lists and Scanning**
 
