@@ -4,9 +4,9 @@
 
 M7OCM PHOENIX Firmware based on Open Edition Firmware Community [OEFWCOM](https://github.com/OEFW-community/RT-890-custom-firmware)
 
-Back to basics... files herein supercede all previous versions released (OEFWCOM - M7OCM v1.0+ and v2.0.0-2.1.5 bins) totally reworked firmware, ironing out a lot of weird bugs including battery voltage not updating if unit left on continuosly.
+Back to basics... files herein supercede all previous versions released (OEFWCOM - M7OCM v1.0-1.9 and v2.0.0-2.1.5 bins) totally reworked firmware, ironed out a lot of weird bugs including battery voltage not updating if unit left on continuosly.
 
-This is a personal project only for my use and as such will only receive bug fixes, no plans to add anything else or change the performance or functions. As I simply cannot accomodate feature requests due to time constraints - this is just a hobby. Its "as is". If you don't like it or it doesn't perform to your expectations don't use it or join forces - fork your own version from the freely available open source files at OEFW or OEFWCOM.
+This is a personal project only for my use and as such will only receive bug fixes, no plans to add anything else or change the performance or functions. I simply cannot accomodate feature requests due to time constraints - this is just a hobby. Its "as is". If you don't like it, or it doesn't perform to your expectations don't use it or join forces - fork your own version from the freely available open source files at OEFW or OEFWCOM.
 
 **LATEST Files Releasing Soon -TESTING**
 
@@ -86,9 +86,9 @@ The scanlist to be used can be selected in the List To Scan menu.
 
 To ignore scanlists and scan all channels, select * in the List To Scan menu.
 
-To add/remove current channel to/from current scanlist, use the Toggle SList shortcut which is default Key 9 (v2.1.1k+).
+To add/remove current channel to/from current scanlist, use the Toggle SList shortcut which is default Key 9.
 
-To start scanning, press a key mapped to the Freq scanner shortcut (default: short press on side key 2).
+To start scanning, press a key mapped to the Freq scanner shortcut (default: short press side key 2).
 
 When scanning is in progress, use side key 2 short press to change the scan list. This action will move to the next non-empty scanlist, or switch to scan all mode if all subsequent lists are empty.
 
@@ -100,7 +100,7 @@ Press any key other than Freq scanner to stop scanning.
 
 Alternatively use Chirp Next to store scan list memory.
 
-Chirp Next instructions: Open in Developer mode, restart, load module (a modified Python driver), select View "Show extra fields" to display scan lists. There needs to be at least 2 frequencies per scan list but no max limit. Duplicate frequencies can be added to more than one list. Try the example .img file which contains 16 PMR446 frequencies in Scan List 1.
+Chirp Next instructions: Open in Developer mode, restart, load module (a modified Python driver), select View "Show extra fields" to display scan lists. There needs to be at least 2 frequencies per scan list but no max limit. Duplicate frequencies can be added to more than one list. Try the example .img file which contains 16 PMR446 frequencies in Scan List 1. Download/upload to radio use Vendor: Ruyage, Model: UV58Plus
 
 The Chirp driver is a WIP. 8.333kHz channels can be entered and saved as can any frequency in the range 10MHz to 1.3GHz. All modulation modes. Scan Lists can be modified. Border colour can be changed and basic radio functions adjusted. Not all key actions save however. A key reset Menu #67 after upload fixes that. I reccomend making copies of data files on a regular basis just in case a file becomes corrupted which may happen when switching between different firmware versions (latest always works).
 
@@ -141,7 +141,7 @@ The default border color used is grey (33808). The code change can be made in Ch
 - RSSI timer speed reduction to reduce internal RFI caused by SPI (screen) updates
 - Full colour spectrum with control options, views
 - AM Fix ported from 1 of 11's UV-K5 firmware (its back!)
-- Dynamic AGC Mode (RF Gain) and Reg Editor
+- RF Gain Contol and Register Editor
 - Flashlight Mode (its back!)
 - NOAA Monitor (its back!)
 - Custom side key and configurable "quick access" keypad keys
@@ -155,15 +155,15 @@ The default border color used is grey (33808). The code change can be made in Ch
   - Change scan direction while scanning (up/down keys)
   - Force scan resume (up/down keys)
 - Reworked main-sub menu system, renamed items
-- and many more ui improvements...
+- ... bear in mind not all OEFWCOM features are included and some of mine are unique!
 
-Note, the 10 character name tag font is UPPER CASE English alphanumeric only and limited in special characters/punctuation: . : - = < >
+Important note, the 10 character name tag font is UPPER CASE English alphanumeric only and limited in special characters/punctuation: . : - = < >
 
 Please note the files herein are two colour themes (light/dark) only, not multiple colour versions that can be switched within the radio menu.
 
 **Disclaimer, experimental firmware on a radio known for spurious signals and harmonics... what could possibly go wrong?!** 🧯
 
-**Use at own risk, no guarantee anything will work correctly or as intended. Back up your SPI with OEFW firmware flasher tool before using (see files) and radio data with Chirp.**
+**Use at own risk, no guarantee anything will work correctly or as intended. Back up your SPI with OEFW firmware flasher tool before using (see files) and radio data with Chirp Next.**
 
 ## OEFWCOM
 OEFWCOM is an ongoing development project by enthusiasts, in their own time and for no financial gain. Testers are encouraged to provide feedback to the developers, without it, progess and implementation is unlikely to happen. So please do get involved.
