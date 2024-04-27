@@ -12,7 +12,7 @@ This is a personal project only for my use and as such will only receive bug fix
 
 3 bin files: Fast, Intermediate and Slow - referring to the scan/search speed which determines squelch opening during VFO search and tone squelch operation.
 
-- Fast, reliable scan, no search or tone squelch opening/detection - speed is too quick, useful only for fast channel scanning
+- Fast, reliable scan, no search or tone squelch opening/detection - speed is too fast for some of the radio search options, useful only for fast channel scanning
 - Intermediate, reliable scan, reliable search, less reliable tone squelch opening, good choice for most users
 - Slow, actually stock performance, reliable scan, search and tone detection. When RX/TX "tone squelch" detection is essential (not to be confused with TX only ham repeater tones that works in all versions)
 
@@ -69,28 +69,30 @@ Start by mapping a key (side key or keypad) to the Reg Editor action using the m
 
 - [Up] Move editor to next register
 - [Down] Move to previous register
-- [1] Change RF Gain Control (AGC 3, FGC 3/2/1/0/7/6/5/4); FGC 2 is a good choice for airband. If AM Fix is on, use AGC 3 (default). Turn AM Fix off if using FGC.
+- [1] Change RF Gain Control (AGC 3, FGC 3/2/1/0/7/6/5/4); FGC 2 is a good choice for airband. If AM Fix is on, use AGC 3 (default). Turn AM Fix off if using FGC
 - [2] Decrease value of current register's setting by 1
 - [3] Increase value of current register's setting by 1
 - [EXIT] Return to main
 
-AGC = Auto Gain Control. FGC = Fixed Gain Control (a manual mode, user selects parameters for fine tuning AM signals)
+AGC = Auto Gain Control. FGC = Fixed Gain Control.
+
+FGC is a manual option - user selects parameters for fine tuning AM signals to prevent front end overloading.
 
 **Scan lists and Scanning**
 
-There are 8 scanlists, plus scan all.
+There are 8 scan lists plus scan all. Active lists are displayed in the status bar when scanning.
 
 The current channel can be added to any scanlist using the Ch In List # menus.
 
 The scanlist to be used can be selected in the List To Scan menu.
 
-To ignore scanlists and scan all channels, select * in the List To Scan menu.
+To ignore scanlists and scan all channels, select Scan All in the List To Scan menu.
 
-To add/remove current channel to/from current scanlist, use the Toggle SList shortcut which is default Key 9.
+To add/remove current channel to/from current scanlist, use the Toggle SList shortcut which is Key 9.
 
 To start scanning, press a key mapped to the Freq scanner shortcut (default: short press side key 2).
 
-When scanning is in progress, use side key 2 short press to change the scan list. This action will move to the next non-empty scanlist, or switch to scan all mode if all subsequent lists are empty.
+When scanning is in progress, use side key 2 (short press) to change the scan list. This action will move to the next non-empty scanlist, or switch to scan all mode if all subsequent lists are empty.
 
 To change the direction of current scan, use the up/down keys.
 
