@@ -10,6 +10,8 @@ Back to basics... files herein supercede all previous versions released (OEFWCOM
 
 This is a personal project only for my use and as such will only receive bug fixes, no plans to add anything else or change the performance or functions. I simply cannot accomodate feature requests due to time constraints - this is just a hobby. Its "as is". If you don't like it, or it doesn't perform to your expectations don't use it or join forces - fork your own version from the freely available open source files at OEFW or OEFWCOM.
 
+![20240302_152535](https://github.com/M7OCM/890/assets/128899149/99b3425e-c6cf-463d-b6f8-8b5c594e901a)
+
 **LATEST 27 April 2024**
 
 3 bin files: Fast, Intermediate and Slow - referring to the scan/search speed which determines squelch opening during VFO search and tone squelch operation.
