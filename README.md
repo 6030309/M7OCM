@@ -173,7 +173,6 @@ Please note the files herein are two colour themes (light/dark) only, not multip
 
 **Use at own risk, no guarantee anything will work correctly or as intended. Back up your SPI with OEFW firmware flasher tool before using (see files) and radio data with Chirp Next.**
 
-![20231213_105022](https://github.com/M7OCM/890/assets/128899149/4b16052a-f887-4983-af9c-b6da25cb38d3)
 ![20231207_082721](https://github.com/M7OCM/890/assets/128899149/367be63c-1b83-4656-8946-a1eebfbab775)
 
 ## OEFWCOM
