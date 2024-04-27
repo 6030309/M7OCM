@@ -163,6 +163,8 @@ The default border color used is grey (33808). The code change can be made in Ch
 - Reworked main-sub menu system, renamed items
 - ... bear in mind not all OEFWCOM features are included and some of mine are unique!
 
+![20240311_214039](https://github.com/M7OCM/890/assets/128899149/f4ac4754-b0bf-485f-a50c-94b8fc6fde9a)
+
 Important note, the 10 character name tag font is UPPER CASE English alphanumeric only and limited in special characters/punctuation: . : - = < >
 
 Please note the files herein are two colour themes (light/dark) only, not multiple colour versions that can be switched within the radio menu.
@@ -170,6 +172,9 @@ Please note the files herein are two colour themes (light/dark) only, not multip
 **Disclaimer, experimental firmware on a radio known for spurious signals and harmonics... what could possibly go wrong?!** 🧯
 
 **Use at own risk, no guarantee anything will work correctly or as intended. Back up your SPI with OEFW firmware flasher tool before using (see files) and radio data with Chirp Next.**
+
+![20231213_105022](https://github.com/M7OCM/890/assets/128899149/4b16052a-f887-4983-af9c-b6da25cb38d3)
+![20231207_082721](https://github.com/M7OCM/890/assets/128899149/367be63c-1b83-4656-8946-a1eebfbab775)
 
 ## OEFWCOM
 OEFWCOM is an ongoing development project by enthusiasts, in their own time and for no financial gain. Testers are encouraged to provide feedback to the developers, without it, progess and implementation is unlikely to happen. So please do get involved.
