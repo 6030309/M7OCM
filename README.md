@@ -151,12 +151,12 @@ The default border color used is grey (33808). The code change can be made in Ch
 - RSSI timer speed reduction to reduce internal RFI caused by SPI (screen) updates
 - Full colour spectrum with control options, views
 - AM Fix ported from 1 of 11's UV-K5 firmware (its back!)
-- RF Gain Contol and Register Editor
+- RF Gain Control and Register Editor
 - Flashlight Mode (its back!)
 - NOAA Monitor (its back!)
 - Custom side key and configurable "quick access" keypad keys
-- Clock speed 120 MHz (OEFWCOM 72 MHz)
-- Display BK4819 AGC Modes/ battery voltage registers in single VFO mode
+- Clock speed 120 MHz (stock 72 MHz)
+- Display BK4819 AGC Modes/battery voltage registers in single VFO mode
 - Display dBM when receiving (calculation accuracy revised)
 - Reworked scan functionality
   - 8 Scan lists plus scan all
